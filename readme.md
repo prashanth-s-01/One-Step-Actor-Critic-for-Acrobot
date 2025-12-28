@@ -22,6 +22,7 @@ Train on MountainCar:
 ```bash
 python3 actor_critic.py --env mountaincar
 ```
+Note: The hyperparameters include - the neural network architecture, discount factor(gamma), actor and critic learning rates, and the maximum number of episodes.  You can change these values in the code files to experiment with the algorithm.
 
 The script will run for a default number of episodes (500 for acrobot and 1500 for mountain-car) and will print periodic progress (reward summaries every 50 episodes).
 
